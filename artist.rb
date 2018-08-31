@@ -1,5 +1,3 @@
-class Artist
-  attr_accessor :name, :genre, :age, :hometown
+class Artist < ActiveRecord::Base
 
-  def initialize(name, genre, age, hometown)
 end
